@@ -1,3 +1,62 @@
+body {
+  background-image: url("img/deadtown.jpg");
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button0 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.7vw;
+  border-color: #000000;
+  background-image: linear-gradient(to bottom right, #810000 30%, #000000 45%, #000000 55%, #810000 70%);
+  background-size: cover;
+  color: #ffefd1;
+  margin-bottom: 2vh;
+  cursor: pointer;
+}
+
+.button1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  height: 7vh;
+  width: 10vw;
+  border-radius: 35%;
+  border-color: #000000;
+  background-image: linear-gradient(to bottom right, #810000 30%, #000000 45%, #000000 55%, #810000 70%);
+  background-size: cover;
+  color: #ffefd1;
+  cursor: pointer;
+}
+
+.button2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 3vw;
+  border-color: transparent;
+  background-image: linear-gradient(to bottom right, #810000 30%, #000000 45%, #000000 55%, #810000 70%);
+  background-size: cover;
+  color: #ffefd1;
+  cursor: pointer;
+  border-top-left-radius: 1.25vw;
+  border-bottom-right-radius: 1.75vw;
+}
+
+table, th, td {
+  color: #000000;
+  border: 3px solid black;
+  border-collapse: collapse;
+  background-color: rgba(255, 177, 74, 0.25);
+  margin-right: 2in;
+  font-size: 3vw;
+}
+
+.editable {  
+  -webkit-user-modify: read-write;
+}
+
+th, tr:nth-child(even) {
+  background-color: rgba(255, 145, 0, 0.35);
+  
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +73,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("img/deadtown.jpg");
+  background-repeat: no-repeat;
+  background-size: fixed;
+  overflow-y: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
